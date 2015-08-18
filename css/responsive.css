@@ -153,7 +153,7 @@
   }
 
   #main-slider .carousel-caption h2 {
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 3px;
   }
 
@@ -165,49 +165,6 @@
     font-size: 14px;
     color: #2da1c5;
   }
-
-  #explore {
-    background-size:cover;
-  }
-
-  #explore h2 {
-    float: inherit;
-    font-size: 30px;
-    margin-bottom: 30px;
-  }  
-
-  #countdown li {
-    font-size: 14px;
-    margin-right:35px;
-    width:inherit;
-  }
-
-  #countdown li span {
-    font-size: 24px;
-    height: 60px;
-    line-height: 60px;
-    width: 60px;
-  }
-
-  #countdown li:before, 
-  #countdown li:after {
-    top:25px;
-  }
-
-  .cart a {
-    font-size: 18px;
-  }
-
-  .cart a i {
-    font-size: 20px;
-    padding:15px;
-  }
-
-   /*event */
-  .single-event {
-    margin-bottom: 40px;
-  }
-
 
   #event h2, 
   #about h2, 
@@ -228,33 +185,6 @@
   .twitter-control-right {
     right: 46%;
   }
-
-  #sponsor {
-    background-position: right 0 bottom 0;
-  }
-
-  .sponsor-control-left, 
-  .sponsor-control-right {
-    top:0;
-  }
-
-  .sponsor-control-left {
-    right: 10%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
-
-  #sponsor .item ul li {
-    width: 30%;
-    margin-right:3%
-  }
-
-  #sponsor .item ul li:last-child {
-    margin-right: 0;
-   }
-
 
   #footer {
     font-size: 16px;
