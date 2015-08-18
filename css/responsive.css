@@ -83,18 +83,6 @@
     padding: 20px 15px;
     font-size: 17px;
   }
- 
- #countdown li {
-  margin-right: 15px;
- }
-
-  .sponsor-control-left {
-    right:8%;
-  }
-
-  .sponsor-control-right {
-    right: 5%;
-  }
 
   .guitar, .ear-piece, .light {
     display: none;
@@ -109,7 +97,7 @@
   }
 
   .guitar2 img {
-    padding-top:38%;
+    padding-top:9%;
   }
 
   .twit {
