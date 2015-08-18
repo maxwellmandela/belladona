@@ -116,6 +116,8 @@ h2 {
   background-color:#1C4A1F;
   padding:0 95px 0 0;
   opacity: .9;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius:8px; 
 }
 
 .navbar-right li a {
@@ -198,6 +200,8 @@ h2 {
   text-transform: uppercase;
   color: #fff;
   text-align: left;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius:8px; 
 }
 
 
