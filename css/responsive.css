@@ -111,7 +111,7 @@
 @media (max-width: 767px) {
 
   .main-nav .container {
-    display: none;
+    display:none;
   }
   
   .fixed-menu .container {
@@ -198,11 +198,11 @@
 @media (max-width: 479px) {
 
   .main-nav .container {
-    display: none;
+    display: ;
   }
 
   .fixed-menu .container {
-    display: block;
+    display: ;
   }
 
   .fixed-menu .navbar-right li a {
