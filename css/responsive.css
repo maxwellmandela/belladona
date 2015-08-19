@@ -197,11 +197,11 @@
 @media (max-width: 479px) {
 
   .main-nav .container {
-    display: ;
+    display: none;
   }
 
   .fixed-menu .container {
-    display: ;
+    display: block;
   }
 
   .fixed-menu .navbar-right li a {

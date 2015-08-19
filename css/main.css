@@ -9,7 +9,7 @@
 body {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
-  color: #fff
+  color: #fff;
 }
 
 
@@ -316,6 +316,7 @@ h2 {
 **************************/
 
 #about {
+  padding-top: 65px; 
   background-color:;  
   position: relative;  
   width: 100%;
@@ -367,6 +368,7 @@ h2 {
 **************************/
 
 #pharmacies-and-clinics {
+  padding-top: 65px; 
   background-color: #056;  
   position: relative;  
   width: 100%;
@@ -433,6 +435,7 @@ h2 {
 **************************/
 
 #health-information {
+  padding-top: 65px; 
   background-color: ;  
   position: relative;  
   width: 100%;
@@ -443,6 +446,12 @@ h2 {
 #health-information h2 {
   margin-bottom: 23px;
   color: #B80201;
+}
+
+#health-information h3 {
+  margin-top: 23px;
+  color: #1C4A1F;
+  margin-bottom: 23px;
 }
 
 #health-information h4 {
@@ -458,5 +467,44 @@ h2 {
 }
 
 #health-information .btn-primary:hover {
+  background-color: #126d55
+}
+
+/*************************
+*******reach-us CSS**********
+**************************/
+
+#reach-us {
+  padding-top: 65px; 
+  background-color: ;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#reach-us h2 {
+  margin-bottom: 23px;
+  color: #B80201;
+}
+
+#reach-us h3 {
+  margin-top: 23px;
+  color: #1C4A1F;
+  margin-bottom: 23px;
+}
+
+#reach-us h4 {
+  margin-bottom: 17px;
+  color: #B80201;
+  font-weight: 500;
+}
+
+.reach-us-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+  color:#333338;
+}
+
+#reach-us .btn-primary:hover {
   background-color: #126d55
 }
