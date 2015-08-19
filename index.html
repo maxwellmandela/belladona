@@ -176,5 +176,12 @@
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
+
+    <script type="text/javascript">
+    	$(window).resize(function(){location.reload();});
+    	$( document ).ready(function() {
+		    $('.main-nav').width($('.container').width());
+		});
+    </script>
 </body>
 </html>
