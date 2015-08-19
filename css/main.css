@@ -424,3 +424,39 @@ h2 {
 }
 
 
+.btn-red{
+  background-color: ;
+}
+
+/*************************
+*******health-information CSS**********
+**************************/
+
+#health-information {
+  background-color: ;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#health-information h2 {
+  margin-bottom: 23px;
+  color: #B80201;
+}
+
+#health-information h4 {
+  margin-bottom: 17px;
+  color: #B80201;
+  font-weight: 500;
+}
+
+.health-information-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+  color:#333338;
+}
+
+#health-information .btn-primary:hover {
+  background-color: #126d55
+}
