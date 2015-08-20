@@ -114,14 +114,16 @@ h2 {
 
 .navbar-right {
   background-color:#1C4A1F;
-  padding:0 95px 0 0;
-  opacity: .9;
+  color: red;
+  padding:0 5px 0 0;
+  opacity: .7;
   overflow: none;
+  padding-top: 40px;
 }
 
 .navbar-right li a {
-  padding: 35px 21px;
-  font-size: 20px;
+  padding: 15px 31px;
+  font-size: 1em;
   color: #fff;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
@@ -134,7 +136,6 @@ h2 {
   background-color: #fff;
   color: #16728f
 }
-
 
 .fixed-menu {
   background-color: #1C4A1F;
@@ -193,7 +194,7 @@ h2 {
   bottom: 14%;
   float: left;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.5;
   padding:10px 60px 35px;
   right: inherit;
   text-transform: uppercase;
