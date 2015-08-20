@@ -114,11 +114,10 @@ h2 {
 
 .navbar-right {
   background-color:#1C4A1F;
-  color: red;
   padding:0 5px 0 0;
   opacity: .7;
   overflow: none;
-  padding-top: 40px;
+  padding-top: ;
 }
 
 .navbar-right li a {
@@ -191,7 +190,7 @@ h2 {
 #main-slider 
 .carousel-caption {
   background: none repeat scroll 0 0 #000000;
-  bottom: 14%;
+  bottom: 0; /*14%*/
   float: left;
   left: 0;
   opacity: 0.5;
@@ -207,18 +206,18 @@ h2 {
 
 #main-slider 
 .carousel-caption h2 {  
-  font-size: 38px;
+  font-size: 28px;
  
 }
 
 #main-slider 
 .carousel-caption h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #main-slider 
 .carousel-caption a {
-  font-size: 22px;
+  font-size: 20px;
   color: #2da1c5
 }
 
