@@ -203,15 +203,18 @@
     <!--/#footer-->
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <?php
-    	$js_files = array('jquery.js',
-    	                   'bootstrap.min.js',
-    	                   'gmaps.js',
-    	                   'smoothscroll.js',
-    	                   'coundown-timer.js',
-    	                   'jquery.scrollTo.js',
-    	                   'jquery.nav.js',
-    	                   'main.js',
-    	                   'jquery.parallax.js');
+    	$js_files = array(
+           'jquery.js',
+           'bootstrap.min.js',
+           'gmaps.js',
+           'smoothscroll.js',
+           'coundown-timer.js',
+           'jquery.scrollTo.js',
+           'jquery.nav.js',
+           'main.js',
+           'jquery.parallax.js'
+        );
+        
     	$js_file = '';
     	foreach($js_files as $js_file){
     		print '<script type="text/javascript" src="'.get_template_directory_uri().'/belladona_template_files/js/'.$js_file.'"></script>';
