@@ -1,10 +1,7 @@
 <?php
-/** 
- * Template Name: Belladona Home Page Template
- *
+/**
+ * Template Name: Belladona Home Page
  * @package WordPress
- * @subpackage Belladona
- * @author maxywhyner94@gmail.com
  */
 ?>
 <!DOCTYPE html>
@@ -15,12 +12,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Belladona HealthCare Services</title>
-    <link href="belladona_template_files/css/bootstrap.min.css" rel="stylesheet">
-    <link href="belladona_template_files/css/font-awesome.min.css" rel="stylesheet">
-	<link href="belladona_template_files/css/main.css" rel="stylesheet">
-	<link href="belladona_template_files/css/animate.css" rel="stylesheet">	
-	<link href="belladona_template_files/css/responsive.css" rel="stylesheet">
-
+    <?php
+    	$css_files = array('bootstrap.min.css', 'font-awesome.min.css', 'main.css', 'animate.css', 'responsive.css');
+    	$css_file = '';
+    	foreach($css_files as $css_file){
+    		print '<link href="'.get_template_directory_uri().'/belladona_template_files/css/'.$css_file.'" rel="stylesheet">';
+    	}
+    ?>
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
@@ -77,7 +75,7 @@
 		<div id="main-slider" class="carousel slide carousel-fade hidden-xs" data-ride="carousel">
 			<div class="carousel-inner carousel">
 				<div class="item active">
-					<img class="img-responsive" src="belladona_template_files/images/slider/bg1.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>/belladona_template_files/images/slider/bg1.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -85,7 +83,7 @@
 				</div>		
 
 				<div class="item">
-					<img class="img-responsive" src="belladona_template_files/images/slider/bg2.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>/belladona_template_files/images/slider/bg2.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -93,7 +91,7 @@
 				</div>
 
 				<div class="item">
-					<img class="img-responsive" src="belladona_template_files/images/slider/bg3.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>/belladona_template_files/images/slider/bg3.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -101,7 +99,7 @@
 				</div>
 
 				<div class="item">
-					<img class="img-responsive" src="belladona_template_files/images/slider/slide6.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>/belladona_template_files/images/slider/slide6.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -109,7 +107,7 @@
 				</div>
 
 				<div class="item">
-					<img class="img-responsive" src="belladona_template_files/images/slider/slide7.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>//images/slider/slide7.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -117,7 +115,7 @@
 				</div>
 
 				<div class="item">
-					<img class="img-responsive" src="belladona_template_files/images/slider/bg4.jpg" alt="slider">						
+					<img class="img-responsive" src="<?php echo get_template_directory_uri()?>/belladona_template_files/images/slider/bg4.jpg" alt="slider">						
 					<div class="carousel-caption col-md-8 col-sm-10 col-xs-10">
 						<h2>Belladona HealthCare services </h2>
 						<h4>Healthcare you can trust</h4>
@@ -203,17 +201,22 @@
         </div>
     </footer>
     <!--/#footer-->
-  
-    <script type="text/javascript" src="belladona_template_files/js/jquery.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  	<script type="text/javascript" src="belladona_template_files/js/gmaps.js"></script>
-	<script type="text/javascript" src="belladona_template_files/js/smoothscroll.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/jquery.parallax.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/coundown-timer.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/jquery.scrollTo.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/jquery.nav.js"></script>
-    <script type="text/javascript" src="belladona_template_files/js/main.js"></script>  
+    <?php
+    	$js_files = array('jquery.js',
+    	                   'bootstrap.min.js',
+    	                   'gmaps.js',
+    	                   'smoothscroll.js',
+    	                   'coundown-timer.js',
+    	                   'jquery.scrollTo.js',
+    	                   'jquery.nav.js',
+    	                   'main.js',
+    	                   'jquery.parallax.js');
+    	$js_file = '';
+    	foreach($js_files as $js_file){
+    		print '<script type="text/javascript" src="'.get_template_directory_uri().'/belladona_template_files/js/'.$js_file.'"></script>';
+    	}
+    ?>
 
     <script type="text/javascript">
     	//$(window).resize(function(){location.reload();});
